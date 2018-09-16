@@ -1,0 +1,7 @@
+Aaron Milgram
+
+Question 1:
+
+a.) Begin by geussing the 500th number within the sorted list containing the integers 1 through 1000. If the correct number is what you geussed, you are done. Else, if the number you geussed is higher than the solution, geuss the number that bisects the lower half of the sorted list. Similarly if the number you geussed is lower than the solution, geuss the number that bisects the higher half of the sorted list. Continuing reducing the list of possible numbers in this manor until you find the correct number.
+
+b.) Using this algorithm, at most you will need to geuss 10 times.
