@@ -1,0 +1,78 @@
+####################################################################################################
+#PLease Note: All text with a # before it is an annotation added after the program finished running#
+####################################################################################################
+
+#First are the 5 examples required in the exact format given in the assignment for output
+#The given format is more or less self documenting
+#all numbers used shown in the appropriate input file
+
+please enter a floating point number and new-line: 	#input floats don't appear in output file of
+the floating value for 237.750000 is broken out as:	#because input doesn't go through output stream
+mantissa:    0x6dc000    or: 110 1101 1100 0000 0000 0000  
+exponent:    0x86        or: 1000 0110
+sign:        0           or: 0
+in base10:   237.750000    or: 0 1000 0110 110 1101 1100 0000 0000 0000  
+
+please enter a floating point number and new-line: 
+the floating value for -0.000001 is broken out as:
+mantissa:    0x9999b    or: 000 1001 1001 1001 1001 1011  
+exponent:    0x6a        or: 0110 1010
+sign:        1           or: 1
+in base10:   -0.000001    or: 1 0110 1010 000 1001 1001 1001 1001 1011  
+
+please enter a floating point number and new-line: 
+the floating value for -92457320.000000 is broken out as:
+mantissa:    0x30592d    or: 011 0000 0101 1001 0010 1101  
+exponent:    0x99        or: 1001 1001
+sign:        1           or: 1
+in base10:   -92457320.000000    or: 1 1001 1001 011 0000 0101 1001 0010 1101  
+
+please enter a floating point number and new-line: 
+the floating value for 602299993035875123462144.000000 is broken out as:
+mantissa:    0x7f157f    or: 111 1111 0001 0101 0111 1111  
+exponent:    0xcd        or: 1100 1101
+sign:        0           or: 0
+in base10:   602299993035875123462144.000000    or: 0 1100 1101 111 1111 0001 0101 0111 1111  
+
+please enter a floating point number and new-line: #extremely small number shows up as 0
+the floating value for 0.000000 is broken out as:
+mantissa:    0x1d279    or: 000 0001 1101 0010 0111 1001  
+exponent:    0x0        or: 0000 0000
+sign:        0           or: 0
+in base10:   0.000000    or: 0 0000 0000 000 0001 1101 0010 0111 1001  
+
+please enter a floating point number and new-line: #The initial example given, 6.0
+the floating value for 6.000000 is broken out as:
+mantissa:    0x400000    or: 100 0000 0000 0000 0000 0000  
+exponent:    0x81        or: 1000 0001
+sign:        0           or: 0
+in base10:   6.000000    or: 0 1000 0001 100 0000 0000 0000 0000 0000  
+
+please enter a floating point number and new-line: 
+the floating value for 3.141593 is broken out as:	#the number pi
+mantissa:    0x490fdb    or: 100 1001 0000 1111 1101 1011  
+exponent:    0x80        or: 1000 0000
+sign:        0           or: 0
+in base10:   3.141593    or: 0 1000 0000 100 1001 0000 1111 1101 1011  
+
+please enter a floating point number and new-line: 	#the number e
+the floating value for 2.718282 is broken out as:
+mantissa:    0x2df854    or: 010 1101 1111 1000 0101 0100  
+exponent:    0x80        or: 1000 0000
+sign:        0           or: 0
+in base10:   2.718282    or: 0 1000 0000 010 1101 1111 1000 0101 0100  
+
+please enter a floating point number and new-line: 	#negative pi
+the floating value for -3.141593 is broken out as:
+mantissa:    0x490fdb    or: 100 1001 0000 1111 1101 1011  
+exponent:    0x80        or: 1000 0000
+sign:        1           or: 1
+in base10:   -3.141593    or: 1 1000 0000 100 1001 0000 1111 1101 1011  
+
+please enter a floating point number and new-line: 	#negative e
+the floating value for -2.718282 is broken out as:
+mantissa:    0x2df854    or: 010 1101 1111 1000 0101 0100  
+exponent:    0x80        or: 1000 0000
+sign:        1           or: 1
+in base10:   -2.718282    or: 1 1000 0000 010 1101 1111 1000 0101 0100  
+
