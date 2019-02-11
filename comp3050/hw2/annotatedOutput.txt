@@ -1,0 +1,50 @@
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 34.500000 + 1.250000 = 35.750000
+According to this program, 34.500000 + 1.250000 = 40.000000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 2750.000000 + 256.000000 = 3006.000000
+According to this program, 2750.000000 + 256.000000 = 2048.000000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 0.001400 + 13.000000 = 13.001400
+According to this program, 0.001400 + 13.000000 = 0.001465
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 7.491000 + 461699991414396420096.000000 = 461699991414396420096.000000
+According to this program, 7.491000 + 461699991414396420096.000000 = 6.002702
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 9643.000000 + 0.012370 = 9643.012695
+According to this program, 9643.000000 + 0.012370 = 12975.592773
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 250000007218949514365393469883371487232.000000 + 150000000274887787888901997140572635136.000000 = inf
+According to this program, 250000007218949514365393469883371487232.000000 + 150000000274887787888901997140572635136.000000 = 300000000549775575777803994281145270272.000000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 0.000000 + 0.000000 = 0.000000
+According to this program, 0.000000 + 0.000000 = 170141183460469231731687303715884105728.000000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 3.140000 + 6.860000 = 10.000000
+According to this program, 3.140000 + 6.860000 = 2.570000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 7.000000 + 5.030000 = 12.030001
+According to this program, 7.000000 + 5.030000 = 5.030000
+
+
+
+please enter your first floating point number and new-line: please enter your second floating point number and new-line: According to the hardware, 0.000000 + 500000.000000 = 500000.000000
+According to this program, 0.000000 + 500000.000000 = 0.000000
+
+
+
