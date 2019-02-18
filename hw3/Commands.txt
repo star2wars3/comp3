@@ -1,0 +1,8 @@
+Commands:
+
+Build:
+./masm < hw3.asm > hw3.obj
+
+
+Run:
+./mic1 prom.dat hw3.obj 4096
