@@ -1,0 +1,152 @@
+Program does not build.
+
+[aaron@localhost hw4]$ make
+gcc -c -g mic1symasm.c
+In file included from mic1symasm.c:2:
+mic1symasm.ll:2:1: error: expected identifier or ‘(’ before ‘%’ token
+ %{
+ ^
+mic1symasm.ll:37:1: error: expected identifier or ‘(’ before ‘%’ token
+ %%
+ ^
+mic1symasm.ll:41:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ss][Tt][Oo][Dd]                       return(STOD);
+ ^
+mic1symasm.ll:43:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Aa][Dd][Dd][Dd]                       return(ADDD);
+ ^
+mic1symasm.ll:45:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ss][Uu][Bb][Dd]                       return(SUBD);
+ ^
+mic1symasm.ll:47:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Jj][Pp][Oo][Ss]                       return(JPOS);
+ ^
+mic1symasm.ll:49:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Jj][Zz][Ee][Rr]                       return(JZER);
+ ^
+mic1symasm.ll:51:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Jj][Uu][Mm][Pp]                       return(JUMP);
+ ^
+mic1symasm.ll:53:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ll][Oo][Cc][Oo]                       return(LOCO);
+ ^
+mic1symasm.ll:55:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ll][Oo][Dd][Ll]                       return(LODL);
+ ^
+mic1symasm.ll:57:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ss][Tt][Oo][Ll]                       return(STOL);
+ ^
+mic1symasm.ll:59:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Aa][Dd][Dd][Ll]                       return(ADDL);
+ ^
+mic1symasm.ll:61:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ss][Uu][Bb][Ll]                       return(SUBL);
+ ^
+mic1symasm.ll:63:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Jj][Nn][Ee][Gg]                       return(JNEG);
+ ^
+mic1symasm.ll:65:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Jj][Nn][Zz][Ee]                       return(JNZE);
+ ^
+mic1symasm.ll:67:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Cc][Aa][Ll][Ll]                       return(CALL);
+ ^
+mic1symasm.ll:69:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Pp][Ss][Hh][Ii]                       return(PSHI);
+ ^
+mic1symasm.ll:71:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Pp][Oo][Pp][Ii]                       return(POPI);
+ ^
+mic1symasm.ll:73:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Pp][Uu][Ss][Hh]                       return(PUSH);
+ ^
+mic1symasm.ll:75:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Pp][Oo][Pp]                           return(POP);
+ ^
+mic1symasm.ll:77:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Rr][Ee][Tt][Nn]                       return(RETN);
+ ^
+mic1symasm.ll:79:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ss][Ww][Aa][Pp]                       return(SWAP);
+ ^
+mic1symasm.ll:81:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Ii][Nn][Ss][Pp]                       return(INSP);
+ ^
+mic1symasm.ll:83:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Dd][Ee][Ss][Pp]                       return(DESP);
+ ^
+mic1symasm.ll:85:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Hh][Aa][Ll][Tt]                       return(HALT);
+ ^
+mic1symasm.ll:87:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Rr][Ss][Hh][Ii][Ff][Tt]               return(RSHIFT);
+ ^
+mic1symasm.ll:89:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Mm][Uu][Ll][Tt]                       return(MULT);
+ ^
+mic1symasm.ll:91:1: error: expected identifier or ‘(’ before ‘[’ token
+ [Dd][Ii][Vv]                           return(DIV);
+ ^
+mic1symasm.ll:93:1: error: stray ‘\’ in program
+ \".+\"           return(STR);
+ ^
+mic1symasm.ll:93:2: warning: missing terminating " character
+ \".+\"           return(STR);
+  ^
+mic1symasm.ll:93:2: error: missing terminating " character
+ \".+\"           return(STR);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mic1symasm.ll:95:1: error: expected identifier or ‘(’ before ‘-’ token
+ -?[0-9][0-9]*                          return(INTEG);
+ ^
+mic1symasm.ll:97:1: error: expected identifier or ‘(’ before ‘[’ token
+ [A-Za-z][0-9A-Za-z]*:         return(LABEL);
+ ^
+mic1symasm.ll:97:12: error: invalid suffix "A" on integer constant
+ [A-Za-z][0-9A-Za-z]*:         return(LABEL);
+            ^~
+mic1symasm.ll:99:1: error: stray ‘\’ in program
+ \.LOC           return(LOC);
+ ^
+mic1symasm.ll:99:2: error: expected identifier or ‘(’ before ‘.’ token
+ \.LOC           return(LOC);
+  ^
+mic1symasm.ll:101:2: error: expected identifier or ‘(’ before ‘.’ token
+ ;.*\n ;
+  ^
+mic1symasm.ll:101:4: error: stray ‘\’ in program
+ ;.*\n ;
+    ^
+mic1symasm.ll:103:1: error: expected identifier or ‘(’ before string constant
+ " "     |
+ ^~~
+mic1symasm.ll:108:1: error: expected identifier or ‘(’ before ‘[’ token
+ [^ \t\r\n]*                               return(JUNK);
+ ^
+mic1symasm.ll:108:4: error: stray ‘\’ in program
+ [^ \t\r\n]*                               return(JUNK);
+    ^
+mic1symasm.ll:108:6: error: stray ‘\’ in program
+ [^ \t\r\n]*                               return(JUNK);
+      ^
+mic1symasm.ll:108:8: error: stray ‘\’ in program
+ [^ \t\r\n]*                               return(JUNK);
+        ^
+mic1symasm.ll:110:1: error: expected identifier or ‘(’ before ‘%’ token
+ %%
+ ^
+mic1symasm.c: In function ‘main’:
+mic1symasm.c:91:9: warning: implicit declaration of function ‘gettimeofday’ [-Wimplicit-function-declaration]
+         gettimeofday (&randtime, (struct timezone *)0);
+         ^~~~~~~~~~~~
+mic1symasm.c:97:9: warning: implicit declaration of function ‘unlink’; did you mean ‘unix’? [-Wimplicit-function-declaration]
+         unlink(temp_file);
+         ^~~~~~
+         unix
+mic1symasm.c: In function ‘dump_table’:
+mic1symasm.c:469:2: warning: implicit declaration of function ‘wait’; did you mean ‘main’? [-Wimplicit-function-declaration]
+  wait(NULL);
+  ^~~~
+  main
+make: *** [Makefile:4: mic1symasm.o] Error 1
+
